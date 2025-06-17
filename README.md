@@ -111,8 +111,8 @@ For all the plots and analysis, refer to the `football_analysis.ipynb` notebook,
 - Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer.
 
 ### MARL Project
-Littman, M. L. (1994). *Markov games as a framework for multi-agent reinforcement learning*. Proceedings of the 11th International Conference on Machine Learning (ICML), 157-163.
-Albrecht, S. V., Christianos, F., & Schäfer, L. (2024). *Multi-Agent Reinforcement Learning: Foundations and Modern Approaches*. MIT Press.
+- Littman, M. L. (1994). *Markov games as a framework for multi-agent reinforcement learning*. Proceedings of the 11th International Conference on Machine Learning (ICML), 157-163.
+- Albrecht, S. V., Christianos, F., & Schäfer, L. (2024). *Multi-Agent Reinforcement Learning: Foundations and Modern Approaches*. MIT Press.
 
 ## Course Information
 - **Course**: Multi-Agent Systems 2025
