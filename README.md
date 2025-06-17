@@ -3,7 +3,7 @@
 This repository contains implementations for two projects from the 2025 MAS (Multi-Agent Systems) course:
 
 1. **Parameter Identification for Discrete-Time Markov Chains (DTMCs)**
-2. **Multi-Agent Reinforcement Learning on Stochastic Games** - Simplified Football Game
+2. **Multi-Agent Reinforcement Learning on Stochastic Games (MARL)** - Simplified Football Game
 
 ## Project 1: Parameter Identification for DTMCs
 
@@ -12,10 +12,13 @@ This project focuses on estimating parameters of a two-state Discrete-Time Marko
 
 ### Problem Setting
 - **System Model**: Two-state DTMC with transition matrix:
+  ```math
+  P = \begin{bmatrix}
+  (1-p) & p \\
+  q & (1-q)
+  \end{bmatrix}
   ```
-  P = [1-p  p  ]
-      [q    1-q]
-  ```
+  
 - **Observations**: Finite traces of state sequences (e.g., A → B → A → A → B)
 - **Goal**: Estimate parameters p and q from observed data
 
