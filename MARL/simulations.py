@@ -263,7 +263,7 @@ class FootballTrainer:
         logger.info(f"=== SIMULATION {simulation_id + 1} COMPLETED ===")
         return simulation_results
 
-    def save_results(self, filename: str = 'results/padoan_simulations_possession_exprate.csv'):
+    def save_results(self, filename: str = 'results/simulations.csv'):
         """Save experiment results to CSV"""
         Path(filename).parent.mkdir(parents=True, exist_ok=True)
         df = pd.DataFrame(self.results)
